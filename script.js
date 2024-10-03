@@ -27,7 +27,7 @@ document.getElementById('invoiceForm').addEventListener('submit', async function
         });
 
         const result = await response.json();
-        document.getElementById('responseMessage').innerText = result.message;
+        document.getElementById('responseMessage').innerText = 'สร้างใบแจ้งหนี้สำเร็จ';
     } catch (error) {
         console.error('Error:', error);
         document.getElementById('responseMessage').innerText = 'เกิดข้อผิดพลาดในการสร้างใบแจ้งหนี้';
