@@ -22,6 +22,7 @@ document.getElementById('invoiceForm').addEventListener('submit', async function
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
+                'Authorization': '6RzavpfIoE5SvvuN1u9WrapRNbp5GLuc5R6B6xTK'
             },
             body: JSON.stringify(invoiceData),
         });
@@ -41,6 +42,8 @@ document.getElementById('showDataButton').addEventListener('click', async functi
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
+                'Accept': 'application/json',
+                'Authorization': '6RzavpfIoE5SvvuN1u9WrapRNbp5GLuc5R6B6xTK'
             }
         });
 
