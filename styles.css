@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #c8eff89c;
     margin: 0;
     padding: 20px;
 }
@@ -24,7 +24,7 @@ label {
 }
 
 input, textarea {
-    width: 100%;
+    width: 97%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
