@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบสร้างใบแจ้งหนี้</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>สร้างใบแจ้งหนี้</h1>
+        <form id="invoiceForm">
+            <label for="customerName">ชื่อผู้ซื้อ:</label>
+            <input type="text" id="customerName" name="customerName" required>
+
+            <label for="items">รายละเอียดสินค้า:</label>
+            <textarea id="items" name="items" required></textarea>
+
+            <label for="totalAmount">ราคา:</label>
+            <input type="number" id="totalAmount" name="totalAmount" required>
+
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" required>
+
+
+            <button type="submit">สร้างใบแจ้งหนี้</button>
+        </form>
+
+        <div id="responseMessage"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
